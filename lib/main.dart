@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_moengage/notifications_bloc.dart';
+import 'package:moengage_test/notifications_bloc.dart';
 
 void main() {
   runApp(MyApp());
