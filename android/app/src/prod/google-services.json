@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421739073404",
+    "project_id": "yc-moengage-test",
+    "storage_bucket": "yc-moengage-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421739073404:android:d96afacc72949542b55ef9",
+        "android_client_info": {
+          "package_name": "yellowclass.kids.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421739073404-b02r86jq8agol9lsvbmcq63out29mv3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6YJ0Zum4qAN-PiLfuuLv9uHSSbr6VxoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421739073404-b02r86jq8agol9lsvbmcq63out29mv3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082179904677",
+    "project_id": "yellow-class-development",
+    "storage_bucket": "yellow-class-development.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082179904677:android:6f1a90fff7c4bf5135194c",
+        "android_client_info": {
+          "package_name": "yellowclass.kids.live.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082179904677-02ek2as8p4uqi20ejjiloqoipv8l8nfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTT0RJi7hBoaQ8fbuDlkW8OGd4KeMiOys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082179904677-02ek2as8p4uqi20ejjiloqoipv8l8nfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
