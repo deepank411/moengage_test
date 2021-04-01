@@ -8,9 +8,10 @@ import com.moengage.core.config.LogConfig
 import com.moengage.core.config.NotificationConfig
 import com.moengage.core.config.PushKitConfig
 import com.moengage.flutter.MoEInitializer
+import io.flutter.app.FlutterApplication
 
 
-class MoEngageInit : Application() {
+class MoEngageInit : FlutterApplication() {
 
     override fun onCreate() {
         super.onCreate()
