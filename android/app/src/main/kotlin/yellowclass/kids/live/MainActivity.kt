@@ -19,8 +19,12 @@ class MainActivity: FlutterActivity() {
     private var startString: String? = null
     private var linksReceiver: BroadcastReceiver? = null
 
+    private val NOTIFICATIONCHANNEL = "yellowclass.com/onReceived"
+
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
         GeneratedPluginRegistrant.registerWith(flutterEngine)
+
+        SingletonNotificationChannel.notificationChannel = MethodChannel(flutterEngine.dartExecutor.binaryMessenger, NOTIFICATIONCHANNEL)
 
         MethodChannel(flutterEngine.dartExecutor, CHANNEL).setMethodCallHandler { call, result ->
             if (call.method == "initialLink") {
