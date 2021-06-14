@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - MoEngage-iOS-SDK (7.0.4):
+    - MORichNotification (< 5.1.0, >= 5.0.0)
+  - moengage_flutter (3.0.0):
+    - Flutter
+    - MoEPluginBase (< 2.1.0, >= 2.0.2)
+  - MoEngageInApp (2.0.3):
+    - MoEngage-iOS-SDK (< 7.1.0, >= 7.0.4)
+  - MoEPluginBase (2.0.2):
+    - MoEngage-iOS-SDK (< 7.1.0, >= 7.0.1)
+    - MoEngageInApp (< 2.1.0, >= 2.0.0)
+  - MORichNotification (5.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - moengage_flutter (from `.symlinks/plugins/moengage_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MoEngage-iOS-SDK
+    - MoEngageInApp
+    - MoEPluginBase
+    - MORichNotification
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  moengage_flutter:
+    :path: ".symlinks/plugins/moengage_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  MoEngage-iOS-SDK: 71451fb44893536b0c70ff7dace1989e6fa734ff
+  moengage_flutter: 43002c2069bd38df5f4f2af0372e1d0bf637b25a
+  MoEngageInApp: b292b847c1753d5b02899697a105c1c794e8251f
+  MoEPluginBase: 490c5b1ab57761ff0aa44c09bdd7662a13f8e1ee
+  MORichNotification: abf1f1aaed3a9366dc8e966c55652bff7716b3b8
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
